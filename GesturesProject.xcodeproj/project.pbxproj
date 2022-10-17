@@ -11,6 +11,13 @@
 		8663D2A828FC7BB500F68364 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8663D2A728FC7BB500F68364 /* ContentView.swift */; };
 		8663D2AA28FC7BB600F68364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8663D2A928FC7BB600F68364 /* Assets.xcassets */; };
 		8663D2AD28FC7BB600F68364 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8663D2AC28FC7BB600F68364 /* Preview Assets.xcassets */; };
+		8663D2B428FC7EE400F68364 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8663D2B328FC7EE400F68364 /* TapGestureView.swift */; };
+		8663D2BE28FC817D00F68364 /* PinchGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8663D2BD28FC817D00F68364 /* PinchGesture.swift */; };
+		8663D2C028FC83F400F68364 /* LongPressGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8663D2BF28FC83F400F68364 /* LongPressGestureView.swift */; };
+		8663D2C228FC85F400F68364 /* RotateGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8663D2C128FC85F400F68364 /* RotateGesture.swift */; };
+		8663D2C728FCB33900F68364 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8663D2C628FCB33800F68364 /* DragGestureView.swift */; };
+		8663D2C928FCDD8200F68364 /* SequencedGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8663D2C828FCDD8200F68364 /* SequencedGesturesView.swift */; };
+		8663D2CB28FCE04100F68364 /* SimultaneousGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8663D2CA28FCE04100F68364 /* SimultaneousGestures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		8663D2A728FC7BB500F68364 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8663D2A928FC7BB600F68364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8663D2AC28FC7BB600F68364 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8663D2B328FC7EE400F68364 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		8663D2BD28FC817D00F68364 /* PinchGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchGesture.swift; sourceTree = "<group>"; };
+		8663D2BF28FC83F400F68364 /* LongPressGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureView.swift; sourceTree = "<group>"; };
+		8663D2C128FC85F400F68364 /* RotateGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateGesture.swift; sourceTree = "<group>"; };
+		8663D2C628FCB33800F68364 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		8663D2C828FCDD8200F68364 /* SequencedGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencedGesturesView.swift; sourceTree = "<group>"; };
+		8663D2CA28FCE04100F68364 /* SimultaneousGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultaneousGestures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,8 @@
 		8663D29928FC7BB500F68364 = {
 			isa = PBXGroup;
 			children = (
+				8663D2C828FCDD8200F68364 /* SequencedGesturesView.swift */,
+				8663D2A528FC7BB500F68364 /* GesturesProjectApp.swift */,
 				8663D2A428FC7BB500F68364 /* GesturesProject */,
 				8663D2A328FC7BB500F68364 /* Products */,
 			);
@@ -51,10 +67,15 @@
 		8663D2A428FC7BB500F68364 /* GesturesProject */ = {
 			isa = PBXGroup;
 			children = (
-				8663D2A528FC7BB500F68364 /* GesturesProjectApp.swift */,
 				8663D2A728FC7BB500F68364 /* ContentView.swift */,
 				8663D2A928FC7BB600F68364 /* Assets.xcassets */,
 				8663D2AB28FC7BB600F68364 /* Preview Content */,
+				8663D2B328FC7EE400F68364 /* TapGestureView.swift */,
+				8663D2BD28FC817D00F68364 /* PinchGesture.swift */,
+				8663D2BF28FC83F400F68364 /* LongPressGestureView.swift */,
+				8663D2C128FC85F400F68364 /* RotateGesture.swift */,
+				8663D2C628FCB33800F68364 /* DragGestureView.swift */,
+				8663D2CA28FCE04100F68364 /* SimultaneousGestures.swift */,
 			);
 			path = GesturesProject;
 			sourceTree = "<group>";
@@ -138,6 +159,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8663D2A828FC7BB500F68364 /* ContentView.swift in Sources */,
+				8663D2C928FCDD8200F68364 /* SequencedGesturesView.swift in Sources */,
+				8663D2C228FC85F400F68364 /* RotateGesture.swift in Sources */,
+				8663D2BE28FC817D00F68364 /* PinchGesture.swift in Sources */,
+				8663D2C728FCB33900F68364 /* DragGestureView.swift in Sources */,
+				8663D2B428FC7EE400F68364 /* TapGestureView.swift in Sources */,
+				8663D2C028FC83F400F68364 /* LongPressGestureView.swift in Sources */,
+				8663D2CB28FCE04100F68364 /* SimultaneousGestures.swift in Sources */,
 				8663D2A628FC7BB500F68364 /* GesturesProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
